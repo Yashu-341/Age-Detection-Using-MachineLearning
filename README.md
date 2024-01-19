@@ -1,5 +1,9 @@
 # Age-Detection-Using-MachineLearning
 The Project is used to Dectect/Predict whether the person is infant or an adult
+# Required Modules
+* **PySimpleGUI**
+* **OpenCV2**
+* **Time**
 # Variables
 Download the .prototxt, .pbtxt and .caffemodel variables and replace the path in the code
 # Run the Code and Select the Desired Picture
