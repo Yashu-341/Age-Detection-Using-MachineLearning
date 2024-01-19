@@ -26,12 +26,12 @@ def getFaceBox(net, frame, conf_threshold=0.7):
 
 
 # set variables
-faceProto = r"C:\Users\P Yasaswi\OneDrive\Desktop\NullClass\Project1\opencv_face_detector.pbtxt"
-faceModel = r"C:\Users\P Yasaswi\OneDrive\Desktop\NullClass\Project1\opencv_face_detector_uint8.pb"
-ageProto = r"C:\Users\P Yasaswi\OneDrive\Desktop\NullClass\Project1\age_deploy.prototxt"
-ageModel = r"C:\Users\P Yasaswi\OneDrive\Desktop\NullClass\Project1\age_net.caffemodel"
-genderProto = r"C:\Users\P Yasaswi\OneDrive\Desktop\NullClass\Project1\gender_deploy.prototxt"
-genderModel = r"C:\Users\P Yasaswi\OneDrive\Desktop\NullClass\Project1\gender_net.caffemodel"
+faceProto = r"opencv_face_detector.pbtxt"
+faceModel = r"opencv_face_detector_uint8.pb"
+ageProto = r"age_deploy.prototxt"
+ageModel = r"age_net.caffemodel"
+genderProto = r"gender_deploy.prototxt"
+genderModel = r"gender_net.caffemodel"
 MODEL_MEAN_VALUES = (78.4263377603, 87.7689143744, 114.895847746)
 ageList = ['(0-2)', '(4-6)', '(8-12)', '(15-20)', '(25-32)', '(38-43)', '(48-53)', '(60-100)']
 genderList = ['Male', 'Female']
